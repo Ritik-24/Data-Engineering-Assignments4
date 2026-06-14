@@ -10,7 +10,7 @@ To understand core Microsoft Azure cloud concepts and architect a secure, metada
 ### Task 1: Explore Azure Portal & Resource Group Creation
 * **Action:** Created a logical deployment container named `rg-azure-pipeline-demo` in the **South India** region to isolate all related cloud assets.
 * **Deliverable:**
-![Resource Group Overview](Resource Group.png)
+![Resource Group Overview](Resource_Group.png)
 
 ### Task 2: Storage Architecture Setup
 * **Action:** Provisioned a general-purpose v2 cloud storage account (`storagedemopipelinerit`), created a blob container named `source-data`, and uploaded `Sample - Superstore.csv` (Size: 2.18 MiB, Hot access tier).
@@ -24,7 +24,7 @@ To understand core Microsoft Azure cloud concepts and architect a secure, metada
   * **Datasets:** Defined `ds_SourceCSV` (pointing to the raw CSV) and `ds_DestinationCSV` (targeting the output path).
   * **Get Metadata Activity:** Added validation parameters using an `Exists` evaluation type to check file integrity before streaming data.
 * **Deliverables:**
-![Linked Service Properties](Linked Service.png)
+![Linked Service Properties](Linked_Service.png)
 ![Dataset Properties](Datasets.png)
 ![Get Metadata Activity Configuration](Metadata.png)
 
